@@ -124,26 +124,33 @@ a:hover {
 
 .hamburger-icon.open span:first-child {
   transform: rotate(45deg) translate(10px, 5px);
+  transition: 2s;
 }
 
 .hamburger-icon.open span:nth-child(2) {
   opacity: 0;
+  transition: 2s;
 }
 
 .hamburger-icon.open span:last-child {
   transform: rotate(-45deg) translate(10px, -5px);
+  transition: 2s;
 }
+
 
 .hamburger-icon span:first-child {
   transform: none;
+  transition: 2s;
 }
 
 .hamburger-icon span:first-child {
   opacity: 1;
+  transition: 2s;
 }
 
 .hamburger-icon span:first-child {
   transform: none;
+  transition: 2s;
 }
 
 /* SECTIONS */
@@ -420,7 +427,7 @@ article .icon {
   height: 2.5rem;
 }
 
-/* FOOTER SECTION */
+/* FOOTER SECTION 
 
 footer {
   height: 26vh;
@@ -429,4 +436,25 @@ footer {
 
 footer p {
   text-align: center;
+}
+*/
+#professional_experience{
+ position: relative;
+}
+
+.internship-details-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+article {
+  display: flex;
+  width: 10rem;
+  justify-content: space-around;
+  gap: 0.5rem;
+}
+
+article .icon {
+  cursor: default;
 }
