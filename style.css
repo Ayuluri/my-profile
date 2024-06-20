@@ -17,6 +17,8 @@ html {
 
 p {
   color: rgb(85, 85, 85);
+  text-align:justify;
+  
 }
 
 /* TRANSITION */
@@ -163,10 +165,19 @@ section {
   min-height: fit-content;
 }
 
+.section__text__p2{
+  text-align: left;
+}
+
 .section-container {
   display: flex;
 }
 
+
+.text-container{
+  color: black;
+  
+}
 /* PROFILE SECTION */
 
 #profile {
@@ -440,6 +451,7 @@ footer p {
 */
 #professional_experience{
  position: relative;
+ 
 }
 
 .internship-details-container{
